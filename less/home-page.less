@@ -1,26 +1,25 @@
 header {
   margin: 30px auto;
   width: 100%;
-  border-bottom: 2px dashed #C0C0C0;
-  
+  border-bottom: 2px dashed #c0c0c0;
+
   div {
-      .flexbox(row, space-between, center);
-      max-width: 800px;
-      margin: 0 auto;
-      padding-bottom: 20px;;
+    .flexbox(row, space-between, center);
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 20px;
 
-      @media @tablet {
-        .flexbox(column, center, center);
-      }
+    @media @tablet {
+      .flexbox(column, center, center);
+    }
 
-      @media @mobile {
-       .flexbox(column, center, center);
-      }
-  }     
+    @media @mobile {
+      .flexbox(column, center, center);
+    }
+  }
 }
 
 .home {
-
   .intro-content {
     border-bottom: 2px dashed @silver;
     padding-bottom: 10px;
@@ -45,7 +44,7 @@ header {
     @media @mobile {
       .flexbox(column, center, flex-start);
     }
-    
+
     .text-content {
       width: 48%;
       padding-right: 1%;
@@ -53,7 +52,7 @@ header {
       @media @mobile {
         width: unset;
         padding-right: unset;
-       }
+      }
     }
 
     .img-content {
@@ -63,7 +62,7 @@ header {
       @media @mobile {
         width: 100%;
         padding-left: unset;
-       }
+      }
 
       img {
         border-radius: 10px;
@@ -128,7 +127,7 @@ header {
       @media @mobile {
         width: 75%;
       }
-    
+
       .btn {
         .sign-up-button(#008080);
       }
@@ -144,7 +143,8 @@ header {
     input[type="text"],
     input[type="email"],
     input[type="tel"],
-    textarea, select {
+    textarea,
+    select {
       width: 85%;
       padding: 10px;
       margin: 10px 0;
@@ -171,4 +171,4 @@ header {
       }
     }
   }
-}// home
+} // home
